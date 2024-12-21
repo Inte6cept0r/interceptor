@@ -1,4 +1,3 @@
-// Typewriter Effect Script
 const lines = [
   "In the world of cyberspace...",
   "The System is Watching...",
@@ -7,9 +6,9 @@ const lines = [
 ];
 
 const typewriterElement = document.getElementById("typewriter");
-const typingSpeed = 70; // Speed for typing (ms)
-const deletingSpeed = 40; // Speed for deleting (ms)
-const delayBetweenLines = 1500; // Delay between lines (ms)
+const typingSpeed = 70; 
+const deletingSpeed = 40; 
+const delayBetweenLines = 1500; 
 let lineIndex = 0;
 let charIndex = 0;
 
@@ -34,6 +33,6 @@ function deleteWriter() {
   }
 }
 
-// Start the typewriter animation
+
 typeWriter();
 
